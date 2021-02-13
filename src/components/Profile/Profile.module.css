@@ -1,0 +1,47 @@
+.profile {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.description {
+  padding: 20px 30px;
+  border-radius: 25px;
+  background-color: aqua;
+  text-align: center;
+  font-size: 25px;
+}
+
+.avatar {
+  margin: 0 auto;
+}
+
+.name {
+  margin: 25px 0 10px;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.stats {
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: 1px solid #fff;
+  background-color: rgba(104, 103, 103, 0.678);
+}
+
+.stats span {
+  display: block;
+}
+
+.label {
+  margin-bottom: 10px;
+  font-weight: 700;
+}

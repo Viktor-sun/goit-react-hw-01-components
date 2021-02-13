@@ -1,0 +1,9 @@
+body {
+  font-family: 'Comic Sans MS', cursive;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
