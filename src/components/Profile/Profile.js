@@ -10,7 +10,7 @@ const Profile = ({
   avatar,
   stats: { followers, views, likes },
 }) => (
-  <div className={styles.profile}>
+  <div className="profile">
     <div className={styles.description}>
       <img
         className={styles.avatar}

@@ -1,5 +1,10 @@
 body {
   font-family: 'Comic Sans MS', cursive;
+  background: linear-gradient(
+    0deg,
+    rgba(4, 5, 5, 1) 8%,
+    rgba(159, 159, 159, 1) 93%
+  );
 }
 
 img {
