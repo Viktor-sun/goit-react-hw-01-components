@@ -15,7 +15,8 @@
   margin-bottom: 15px;
 }
 
-.status {
+/* for classic variant */
+/* .status {
   display: block;
   width: 30px;
   height: 30px;
@@ -31,7 +32,7 @@
 .offline {
   composes: status;
   background-color: brown;
-}
+} */
 
 .name {
   margin: 0;
