@@ -15,7 +15,7 @@ const FriendListItem = ({ friends }) =>
   friends.map(friend => (
     <li className={styles.item} key={friend.id}>
       {/*classic variant */}
-      {/* <span className={friend.isOnline ? styles.online : styles.offline}></span> {} */}
+      {/* <span className={friend.isOnline ? styles.online : styles.offline}></span> */}
       {/*styled-components variant */}
       <IconIsOnline isOnline={friend.isOnline} />
       <img
