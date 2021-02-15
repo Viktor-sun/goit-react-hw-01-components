@@ -1,9 +1,11 @@
 import React from 'react';
 import Container from './components/Container/Container';
 import Profile from './components/Profile/Profile';
-import Statistics from './components/Statistics/Statistics';
 import user from './user.json';
+import Statistics from './components/Statistics/Statistics';
 import statisticalData from './statistical-data.json';
+import FriendList from './components/FriendList/FriendList';
+import friends from './friends.json';
 
 const App = () => (
   <Container>
@@ -15,6 +17,7 @@ const App = () => (
       stats={user.stats}
     />
     <Statistics title="Upload stats" stats={statisticalData} />
+    <FriendList friends={friends} />
   </Container>
 );
 
