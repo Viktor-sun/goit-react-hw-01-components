@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import imgProfile from './profile.jpg';
+import imgProfile from './Profile.jpg';
 import styles from './Profile.module.css';
 
 const Profile = ({
