@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import styles from './FriendList.module.css';
-import defaultIcon from './FriendList.svg';
+import styles from './FriendListItem.module.css';
+import defaultIcon from '../../images/FriendList.svg';
 
 const IconIsOnline = styled.span`
   display: block;
